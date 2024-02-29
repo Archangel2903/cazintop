@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="185"
+   height="185"
+   viewBox="-45 -30 18.5 18.5"
+   fill="#07038d"
+   version="1.1"
+   id="svg344"
+   sodipodi:docname="flag-symbol.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs348" />
+  <sodipodi:namedview
+     id="namedview346"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.395"
+     inkscape:cx="117.2043"
+     inkscape:cy="65.949821"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg344" />
+  <title
+     id="title312">Flag of India</title>
+  <path
+     fill="#ffffff"
+     d="M 55.095604,-61.293241 H 145.0956 v 60 H 55.095604 Z"
+     id="path314" />
+  <path
+     fill="#ff6820"
+     d="M 55.095604,-61.293241 H 145.0956 v 20 H 55.095604 Z"
+     id="path316" />
+  <path
+     fill="#046a38"
+     d="M 55.095604,-21.293241 H 145.0956 v 20 H 55.095604 Z"
+     id="path318" />
+  <circle
+     r="9.25"
+     id="circle320"
+     cx="-35.75"
+     cy="-20.75" />
+  <circle
+     fill="#ffffff"
+     r="8"
+     id="circle322"
+     cx="-35.75"
+     cy="-20.75" />
+  <circle
+     r="1.6"
+     id="circle324"
+     cx="-35.75"
+     cy="-20.75" />
+  <g
+     id="d"
+     transform="translate(-35.75,-20.75)">
+    <g
+       id="c">
+      <g
+         id="b">
+        <g
+           id="a">
+          <path
+             d="M 0,-8 0.3,-3.18591 0,-0.80235 -0.3,-3.18591 Z"
+             id="path326" />
+          <circle
+             transform="rotate(7.5)"
+             r="0.34999999"
+             cy="-8"
+             id="circle328"
+             cx="0" />
+        </g>
+        <use
+           xlink:href="#a"
+           transform="scale(-1)"
+           id="use331" />
+      </g>
+      <use
+         xlink:href="#b"
+         transform="rotate(15)"
+         id="use334" />
+    </g>
+    <use
+       xlink:href="#c"
+       transform="rotate(30)"
+       id="use337" />
+  </g>
+  <use
+     xlink:href="#d"
+     transform="rotate(60,-35.75,-20.75)"
+     id="use340" />
+  <use
+     xlink:href="#d"
+     transform="rotate(120,-35.75,-20.75)"
+     id="use342" />
+  <metadata
+     id="metadata350">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Flag of India</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -7,4 +7,43 @@ footer.footer {
   position: relative;
 }
 
+.footer {
+  &__content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__logo {
+    flex: 0 0 20%;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none !important;
+  }
+
+  &-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+
+    &__box {
+      flex: 0 1 48%;
+
+      &-title {
+        margin: 0 0 30px;
+        color: #aeaebd;
+        font-size: 21px;
+      }
+      &-text {
+        line-height: 1.7;
+      }
+    }
+  }
+}
+
 .copyright {}
