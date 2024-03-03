@@ -10,14 +10,15 @@ footer.footer {
 .footer {
   &__content {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-content: flex-start;
     align-items: flex-start;
+    gap: 30px;
   }
 
   &__logo {
-    flex: 0 0 20%;
+    flex: 0 0 auto;
     font-size: 24px;
     font-weight: 700;
     text-decoration: none !important;
@@ -29,13 +30,12 @@ footer.footer {
     justify-content: flex-start;
     align-content: flex-start;
     align-items: flex-start;
-    gap: 30px;
+    gap: 15px;
 
     &__box {
-      flex: 0 1 48%;
 
       &-title {
-        margin: 0 0 30px;
+        margin: 0 0 15px;
         color: #aeaebd;
         font-size: 21px;
       }
@@ -47,3 +47,34 @@ footer.footer {
 }
 
 .copyright {}
+
+@include media-breakpoint-up(sm) {
+  .footer {
+    &-info {
+      gap: 30px;
+
+      &__box {
+        flex: 0 1 calc(50% - 30px);
+
+        &-title {
+          margin: 0 0 30px;
+        }
+      }
+    }
+  }
+}
+@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(lg) {
+  .footer {
+    &__content {
+      flex-direction: row;
+    }
+  }
+}
+@include media-breakpoint-up(xl) {
+  .footer {
+    &__logo {
+      flex: 0 0 20%;
+    }
+  }
+}
